@@ -1,0 +1,35 @@
+{
+  "name": "html-scss-ui-clone-webl",
+  "version": "1.0.0",
+  "description": "HTML-SCSS-UI_CLONE",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keerthihub/HTML-SCSS-UI-CLONE-Webl.git"
+  },
+  "author": "Keerthihub <hellokeerthivasan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glup-cli": "^1.0.1",
+    "gulp": "^4.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Keerthihub/HTML-SCSS-UI-CLONE-Webl/issues"
+  },
+  "homepage": "https://github.com/Keerthihub/HTML-SCSS-UI-CLONE-Webl#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "browser-sync": "^2.29.3",
+    "cssnano": "^6.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.69.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
