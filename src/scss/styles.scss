@@ -1,10 +1,104 @@
-@import url("https://fonts.googleapis.com/css2?family=B612+Mono&family=DM+Serif+Display:ital@0;1&display=swap");
 @import "_variables";
 @import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
 
 body {
-  font-family: "DM Serif Display", monospace;
-  padding: 45px;
+  font-family: Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  }
+
+
+header {
+  width: 600px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $bg-s;
+  color: $f-p;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+hgroup {
+  padding: 10vh 0 0 72px;
+
+  h1 {
+  font-size: 5.2em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  transform: translateX(-.1em);
+  }
+}
+
+.wrapper {
+  padding: 72px;
+  display: flex;
+  line-height: 1.4;
+}
+
+.interior {
+  width: 80%;
+  max-width: 480px;
+
+  p:first-child {
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+  }
+
+  p:nth-child(2) {
+    color: #000;
+    text-align: justify;
+  }
+
+  nav {
+    font-size: .9em;
+    line-height: 1.7;
+    margin-top: 2em;
+
+  a {
+    color: $f-t1;
+    box-shadow: 0 1px 0 rgba(0,0,0,.6);
+    display: inline-block;
+    margin: 0 1em .25em 0;
+    text-decoration: none;
+
+    &:hover {
+      color: #000;
+      box-shadow: 0 1px 0 #000;
+    }
+  }
+
+  p {
+    color: $f-t2;
+    font-size: .9em;
+    line-height: 1.4;
+    margin-top: 2em;
+  }
+}
+
+}
+
+main {
+  height: 1000vh;
+  margin-left: 600px;
+  background-color: $bg-p;
 }
 
 
